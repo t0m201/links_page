@@ -21,10 +21,13 @@ h1
   display: inline-block
   width: 23%
   font-size: 1rem
-  background: rgba(white, 0.7)
   vertical-align: top
   + .link_column
     margin-left: 20px
+
+.link_wrapper
+  + .link_wrapper
+    margin-top: 20px
 
 .column_top_bar
   background: rgba(gold, 0.7)
@@ -33,14 +36,16 @@ h1
     margin: 0
     color: white
     font-weight: lighter
+  + .column_top_bar
+    margin-top: 20px
 
 .link1
   padding: 10px 20px
-  background: rgba(black, 0.2)
+  background: #212223
   a
     color: white
 .link2
   padding: 10px 20px
-  background: rgba(black, 0.7)
+  background: #707070
   a
     color: white
